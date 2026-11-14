@@ -1,0 +1,33 @@
+{
+  "name": "magpie-dumate-local",
+  "version": "0.1.0",
+  "description": "Magpie / OpenCode provider plugin: 百度搭子 DuMate (provider id dumate-local)",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie-plugin",
+    "dumate",
+    "baidu"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "magpie": {
+    "name": "百度搭子 DuMate (local)",
+    "summary": {
+      "en": "Use your own Baidu DuMate points through a pasted console session.",
+      "zh": "用你自己粘贴的百度控制台会话调用百度搭子 DuMate，消耗账号积分。"
+    }
+  }
+}
